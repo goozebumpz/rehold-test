@@ -1,5 +1,7 @@
 .container {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .container__balance {
@@ -8,4 +10,7 @@
     padding: 20px;
     border-radius: 10px;
     background: var(--background-color);
+    width: 30%;
+    background: #515976;
+    color: #fff;
 }
