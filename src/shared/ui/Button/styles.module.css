@@ -1,0 +1,15 @@
+.btn {
+    all: unset;
+    padding:10px 20px;
+    background: var(--primary-color);
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.1s ease-in;
+}
+
+.btn:disabled {
+    cursor: not-allowed;
+    background: #515976;
+    transition: background 0.1s ease-in;
+}
